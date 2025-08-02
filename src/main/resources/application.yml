@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: basic-memo
+  datasource:
+    url: jdbc:mysql://localhost:3306/memo
+    username: root
+    password: won9975744
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+logging:
+  level:
+    com.example.basicmemo : trace
